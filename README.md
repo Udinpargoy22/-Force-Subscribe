@@ -1,7 +1,7 @@
 # Force Subscribe Bot 🤖
 **A Telegram Bot to force users to join a specific channel before sending messages in a group.**
 
-## [🌟 Join Our Channel 🌟](https://t.me/ACE_ML)
+## [🌟 Join Our Channel 🌟](https://t.me/xxGRAMZ)
 
 ## 🎉 Whats New?
 - Heroku Eco Plan Support
@@ -17,7 +17,7 @@
 
 <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TheFlashSpeedster/ACE-Force-Subscribe)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kontolkebo13/-Force-Subscribe)
 </details>
 
 <details>
@@ -28,11 +28,11 @@
 
 - Clone this repo
 ```
-git clone https://github.com/TheFlashSpeedster/ACE-Force-Subscribe
+git clone https://github.com/kontolkebo13/-Force-Subscribe
 ```
 - Change directory
 ```
-cd ACE-Force-Subscribe
+cd -Force-Subscribe
 ```
 - Install requirements
 ```
@@ -58,9 +58,9 @@ python3 bot.py
 - Run this Command
 
 ```
-git clone https://github.com/TheFlashSpeedster/ACE-Force-Subscribe && cd ACE-Force-Subscribe && pip install -r requirements.txt && python3 bot.py
+git clone https://github.com/kontolkebo13/-Force-Subscribe && cd -Force-Subscribe && pip install -r requirements.txt && python3 bot.py
 ```
-ℹ️ Replace `TheFlashSpeedster` with your GitHub Username
+ℹ️ Replace `kontolkebo13` with your GitHub Username
 
 </details>
 
@@ -75,4 +75,4 @@ git clone https://github.com/TheFlashSpeedster/ACE-Force-Subscribe && cd ACE-For
 
 😏 DATABASE_URL not required for Heroku.
 
-## [🌟 Join Our Channel 🌟](https://t.me/ACE_ML)
+## [🌟 Join Our Channel 🌟](https://t.me/xxGRAMZ)
