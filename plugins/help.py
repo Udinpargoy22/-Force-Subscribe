@@ -17,7 +17,7 @@ async def _start(client, message):
             if user.status == "kicked":
                await client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/ACE_OffTopic).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support by](https://t.me/lapakkroleplayer).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -42,11 +42,11 @@ async def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/ACE_ML"),
-                           InlineKeyboardButton("Support Group", url="https://t.me/ACE_OffTopic")
+                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/xxGRAMZ"),
+                           InlineKeyboardButton("Support Group", url="https://t.me/lapakkroleplayer")
                       ],
                      [
-                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/FlashSpeedster1")
+                           InlineKeyboardButton("👩‍💻 Maintenance by 🧑‍💻", url="https://t.me/Lerrdab")
                      ]
                  ]
              ),
@@ -59,11 +59,11 @@ async def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/ACE_ML"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/ACE_OffTopic")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/xxGRAMZ"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/lapakkroleplayer")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/FlashSpeedster1")
+                    InlineKeyboardButton("🧑‍💻 Maintenance by 🧑‍💻", url="https://t.me/Lerrdab")
                 ]
             ]
         ),
@@ -79,14 +79,14 @@ async def _source_code(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🌐 Source Code 🌐", url="https://t.me/ACE_ML")
+                    InlineKeyboardButton("🌐 Source Code 🌐", url="https://t.me/Lerrdab")
                 ],
                 [
-                    InlineKeyboardButton("🌟 Join Channel", url="https://t.me/ACE_ML"),
-                    InlineKeyboardButton("💬 Support Group", url="https://t.me/ACE_OffTopic")
+                    InlineKeyboardButton("🌟 Join Channel", url="https://t.me/xxGRAMZ"),
+                    InlineKeyboardButton("💬 Support Group", url="https://t.me/lapakkroleplayer")
                 ],
                 [
-                    InlineKeyboardButton("👨‍💻 Developer 🧑‍💻", url="https://t.me/FlashSpeedster1")
+                    InlineKeyboardButton("👨‍💻 Maintenance by 🧑‍💻", url="https://t.me/Lerrdab")
                 ]
             ]
         ),
@@ -103,7 +103,7 @@ async def _help(client, message):
             if user.status == "kicked":
                await client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/ACE_OffTopic).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Lerrdab).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -125,7 +125,7 @@ async def _help(client, message):
         except Exception:
             await client.send_message(
                 chat_id=message.chat.id,
-                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://t.me/ACE_OffTopic).",
+                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://t.me/lapakkroleplayer).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
