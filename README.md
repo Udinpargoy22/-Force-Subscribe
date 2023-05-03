@@ -17,7 +17,7 @@
 
 <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kontolkebo13/-Force-Subscribe)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kontolkeboo13/-Force-Subscribe)
 </details>
 
 <details>
@@ -28,7 +28,7 @@
 
 - Clone this repo
 ```
-git clone https://github.com/kontolkebo13/-Force-Subscribe
+git clone https://github.com/kontolkeboo13/-Force-Subscribe
 ```
 - Change directory
 ```
@@ -58,9 +58,9 @@ python3 bot.py
 - Run this Command
 
 ```
-git clone https://github.com/kontolkebo13/-Force-Subscribe && cd -Force-Subscribe && pip install -r requirements.txt && python3 bot.py
+git clone https://github.com/kontolkeboo13/-Force-Subscribe && cd -Force-Subscribe && pip install -r requirements.txt && python3 bot.py
 ```
-ℹ️ Replace `kontolkebo13` with your GitHub Username
+ℹ️ Replace `kontolkeboo13` with your GitHub Username
 
 </details>
 
