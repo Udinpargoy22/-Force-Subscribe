@@ -1,7 +1,7 @@
 # Force Subscribe Bot 🤖
 **A Telegram Bot to force users to join a specific channel before sending messages in a group.**
 
-## [🌟 Join Our Channel 🌟](https://t.me/xxGRAMZ)
+## [🌟 Join Our Channel 🌟](https://t.me/ch_prem)
 
 ## 🎉 Whats New?
 - Heroku Eco Plan Support
@@ -75,5 +75,5 @@ git clone https://github.com/kontolkeboo13/-Force-Subscribe && cd -Force-Subscri
 
 😏 DATABASE_URL not required for Heroku.
 
-## [🌟 Join Our Channel 🌟](https://t.me/xxGRAMZ)
-## [🌟 join Our Group  🌟](https://t.me/lapakkroleplayer)
+## [🌟 Join Our Channel 🌟](https://t.me/ch_prem)
+## [🌟 join Our Group  🌟](https://t.me/lpm_roleplayer_rp)
