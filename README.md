@@ -76,4 +76,5 @@ git clone https://github.com/kontolkeboo13/-Force-Subscribe && cd -Force-Subscri
 😏 DATABASE_URL not required for Heroku.
 
 ## [🌟 Join Our Channel 🌟](https://t.me/ch_prem)
-## [🌟 join Our Group  🌟](https://t.me/lpm_roleplayer_rp)
+## [🌟 join Our Group  🌟](https://t.me/lpm_rolplayer_rp)
+## [ support ](https://t.me/amcow)
