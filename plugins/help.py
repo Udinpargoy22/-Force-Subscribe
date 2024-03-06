@@ -17,7 +17,7 @@ async def _start(client, message):
             if user.status == "kicked":
                await client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support by](https://t.me/lapakkroleplayer).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support by](https://t.me/lpm_rolplayer_rp).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -42,11 +42,11 @@ async def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/xxGRAMZ"),
-                           InlineKeyboardButton("Support Group", url="https://t.me/lapakkroleplayer")
+                           InlineKeyboardButton("Join Channel", url="https://t.me/ch_prem"),
+                           InlineKeyboardButton("join Group", url="https://t.me/lpm_rolplayer_rp")
                       ],
                      [
-                           InlineKeyboardButton("👩‍💻 Maintenance by 🧑‍💻", url="https://t.me/Lerrdab")
+                           InlineKeyboardButton(" support ☕ ", url="https://t.me/amcow")
                      ]
                  ]
              ),
@@ -59,11 +59,11 @@ async def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/xxGRAMZ"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/lapakkroleplayer")
+                    InlineKeyboardButton("Join Channel", url="https://t.me/ch_prem"),
+                    InlineKeyboardButton("join Group", url="https://t.me/lpm_rolplayer_rp")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻 Maintenance by 🧑‍💻", url="https://t.me/Lerrdab")
+                    InlineKeyboardButton("support ☕", url="https://t.me/Lerrdab")
                 ]
             ]
         ),
@@ -79,14 +79,14 @@ async def _source_code(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🌐 Source Code 🌐", url="https://t.me/Lerrdab")
+                    InlineKeyboardButton(" Source Code ", url="https://t.me/amcow")
                 ],
                 [
-                    InlineKeyboardButton("🌟 Join Channel", url="https://t.me/xxGRAMZ"),
-                    InlineKeyboardButton("💬 Support Group", url="https://t.me/lapakkroleplayer")
+                    InlineKeyboardButton("👋 Join Channel", url="https://t.me/ch_prem"),
+                    InlineKeyboardButton("💬 Support Group", url="https://t.me/lpm_rolplayer_rp")
                 ],
                 [
-                    InlineKeyboardButton("👨‍💻 Maintenance by 🧑‍💻", url="https://t.me/Lerrdab")
+                    InlineKeyboardButton("support ☕", url="https://t.me/amcow")
                 ]
             ]
         ),
@@ -103,7 +103,7 @@ async def _help(client, message):
             if user.status == "kicked":
                await client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Lerrdab).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support ☕](https://t.me/amcow).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -125,7 +125,7 @@ async def _help(client, message):
         except Exception:
             await client.send_message(
                 chat_id=message.chat.id,
-                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://t.me/lapakkroleplayer).",
+                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://t.me/lpm_rolplayer_rp).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
