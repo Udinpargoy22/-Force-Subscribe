@@ -25,7 +25,7 @@ async def _onUnMuteRequest(client, cb):
             if cb.message.reply_to_message.from_user.id == user_id:
               await cb.message.delete()
           except UserNotParticipant:
-            await client.answer_callback_query(cb.id, text="⚠️ Join our 'Channel' and press the '✅ UnMute Me' button again.", show_alert=True)
+            await client.answer_callback_query(cb.id, text="⚠️ Join 'Channel' our 'group' tap unmute '✅ UnMute Me' button again.", show_alert=True)
       else:
         await client.answer_callback_query(cb.id, text="❗ You are muted by admins for other reasons.", show_alert=True)
     else:
@@ -59,10 +59,10 @@ async def _check_member(client, message):
              reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⚠️ Join Channel", url=channel_url)
+                    InlineKeyboardButton("⚠️ Join Channel our GROUP", url=channel_url)
                 ],
                 [
-                    InlineKeyboardButton("✅ UnMute Me", callback_data="onUnMuteRequest")
+                    InlineKeyboardButton("✅ UnMute me", callback_data="onUnMuteRequest")
                 ]
             ]
         )
